@@ -75,6 +75,27 @@ export default function Home() {
         </div>
       </div>
 
+      <div className='flex justify-center items-center flex-col'>
+
+          
+<div className='bg-[#3E9FFE] m-6 py-2 w-96 md:w-1/2 px-3 rounded-3xl'>
+  <p className='text-white text-center text-sm md:text-base'>Total Supply : 1000000</p>
+</div>
+<div className='bg-[#3E9FFE] m-6 md:w-1/2 w-96 py-2 px-3 rounded-3xl'>
+  <p className='text-white text-center text-sm md:text-base'>Symbol: $OME</p>
+</div>
+<div className='bg-[#3E9FFE] m-6 md:w-1/2 w-96 py-2 px-3 rounded-3xl'>
+  <p className='text-white text-center text-sm md:text-base'>Liquidity: 70%</p>
+</div>
+<div className='bg-[#3E9FFE] m-6 md:w-1/2 py-2 px-3 rounded-3xl'>
+  <p className='text-white text-center text-sm md:text-base'>CA: 0xC6968fE817bC56435a6e7C6709f2d585cf992DB0</p>
+</div>
+
+
+
+
+</div>
+
       <div id="team" className="flex flex-col justify-center md:p-10 ">
         <p className="text-5xl ml-6 md:ml-0 w-fit p-2 font-bold ">Partner</p>
         <div class="container flex flex-wrap justify-around">
@@ -134,8 +155,8 @@ export default function Home() {
       <div className="bg-[#3E9FFE] flex justify-between p-4 font-semibold">
         <p className="text-white m-2">Listed On BNB Chain</p>
         <div className="flex justify-between">
-        <a className="m-2" href=""><FontAwesomeIcon className='hover:text-[#F5DE42] text-white' icon={faXTwitter} size="lg" style={{  width: '24px', height: '24px' }} /></a>
-        <a className="m-2" href=""><FontAwesomeIcon icon={faTelegram} className='hover:text-[#F5DE42] text-white' size="lg" style={{ width: '24px', height: '24px' }} /></a>
+        <a className="m-2" href="https://t.me/omeglechatofficial"><FontAwesomeIcon className='hover:text-[#F5DE42] text-white' icon={faXTwitter} size="lg" style={{  width: '24px', height: '24px' }} /></a>
+        <a className="m-2" href="https://t.me/omeglechatofficial"><FontAwesomeIcon icon={faTelegram} className='hover:text-[#F5DE42] text-white' size="lg" style={{ width: '24px', height: '24px' }} /></a>
 
         </div>
       </div>
