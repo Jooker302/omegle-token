@@ -21,7 +21,7 @@ export default function Home() {
       <div id="intro"
         className="m-4 mb-0 text-5xl font-bold md:ml-10"
         class="about-heading">
-        <p className="text-5xl md:ml-0 mt-10 md:mt-6 bg-[#F5DE42] w-fit p-2 font-bold">Introduction</p>
+        <p className="text-5xl md:ml-0 mt-10 md:mt-6 p-2 font-bold">Introduction</p>
       </div>
       <div class="about" className=''>
       <div class="about-image">
@@ -32,8 +32,8 @@ export default function Home() {
           />
         </div>
         <div class="about-text">
-          <p className="text-3xl md:text-4xl rounded-full md:mt-12 italic">
-          Introducing <span className="font-bold bg-[#F5DE42]">'<span className='bg-[#F5DE42]'>Omegle Token</span>:'  </span>  Revolutionizing the Crypto World with Seamless Connections!
+          <p className="text-3xl rounded-full md:mt-12 italic">
+          Introducing <span className="font-bold ">'<span>Omegle Token</span>:'  </span>  Revolutionizing the Crypto World with Seamless Connections!
           </p>
         </div>
         
@@ -49,7 +49,7 @@ export default function Home() {
           captivating and thought-provoking film <span className="font-bold">'Oppenheimer.'</span>
         </p> */}
         <p className="mt-4">
-        <span className="font-bold italic bg-[#F5DE42]">Omegle Token</span> is listed on <span className="font-bold bg-[#F5DE42]"> BNB Chain </span>
+        <span className="font-bold italic">Omegle Token</span> is listed on <span className="font-bold "> BNB Chain </span>
         </p>
       </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
         className="m-4 mb-0 text-5xl md:mt-24n font-bold md:ml-10"
         class="about-heading"
       >
-        <p className="text-5xl md:ml-0 font-bold w-fit p-2 bg-[#F5DE42]">About</p>
+        <p className="text-5xl md:ml-0 font-bold w-fit p-2 ">About</p>
         
       </div>
       <div class="about">
@@ -76,7 +76,7 @@ export default function Home() {
       </div>
 
       <div id="team" className="flex flex-col justify-center md:p-10 ">
-        <p className="text-5xl ml-6 md:ml-0 w-fit p-2 font-bold bg-[#F5DE42]">Partner</p>
+        <p className="text-5xl ml-6 md:ml-0 w-fit p-2 font-bold ">Partner</p>
         <div class="container flex flex-wrap justify-around">
           <div class="team-profile">
             <a href="https://dx.app">
@@ -132,7 +132,7 @@ export default function Home() {
       </div>
 
       <div className="bg-[#3E9FFE] flex justify-between p-4 font-semibold">
-        <p className="text-white hover:text-[#F5DE42] m-2">Listed On BNB Chain</p>
+        <p className="text-white m-2">Listed On BNB Chain</p>
         <div className="flex justify-between">
         <a className="m-2" href=""><FontAwesomeIcon className='hover:text-[#F5DE42] text-white' icon={faXTwitter} size="lg" style={{  width: '24px', height: '24px' }} /></a>
         <a className="m-2" href=""><FontAwesomeIcon icon={faTelegram} className='hover:text-[#F5DE42] text-white' size="lg" style={{ width: '24px', height: '24px' }} /></a>
